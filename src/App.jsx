@@ -8,6 +8,7 @@ import { useState } from "react";
 import { MyContext } from "./MyContext";
 import { Provider } from "react-redux";
 import store from "./store";
+import Item from "./pages/Items/Item";
 import Customers from "./pages/Customers/Customers";
 import Order from "./pages/order/order";
 
@@ -40,6 +41,7 @@ function App() {
             <MyContext.Provider value={{ isCollapsed, setIsCollapsed }}>
               <Routes>
                 <Route path="/dashBoard" element={<Dashboard />} />
+                <Route path="/items" element={<Item />} />
                 <Route path="/customer" element={<Customers/>}/>
                 <Route path="/order" element={<Order></Order>} />
               </Routes>
