@@ -54,7 +54,7 @@ function Dashboard() {
             </div>
           </div>
         </div>
-        <div className="dashboard-main"></div>
+        <div className="dashboard-main"><div>hello this is the dashboard page</div></div>
       </div>
     </>
   );
