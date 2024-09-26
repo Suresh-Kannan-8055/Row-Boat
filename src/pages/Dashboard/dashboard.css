@@ -1,0 +1,19 @@
+.user-image{
+    margin: 5px;
+    width: 45px;
+    height:45px;
+    border-radius: 50%;
+    border: 1PX solid #333;
+}
+.user-details{
+    line-height: 1px;
+    padding: 0px 10px;
+}
+.user-details .user-name{
+    color: #333;
+    font-size: 18px;
+}
+.user-details .user-id{
+    font-size: 10px;
+    color: #aaa;
+}
