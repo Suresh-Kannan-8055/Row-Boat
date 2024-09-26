@@ -14,6 +14,7 @@ import FastfoodIcon from '@mui/icons-material/Fastfood';
 import "./navbar.css";
 import { MyContext } from "../../MyContext";
 
+import NotificationsIcon from '@mui/icons-material/Notifications';
 
 const VNavbar = () => {
   const {isCollapsed, setIsCollapsed } = useContext(MyContext);
@@ -61,7 +62,19 @@ const VNavbar = () => {
             icon={<FastfoodIcon style={{ fontSize: "22px" }} />}
             label="Items"
             collapsed={isCollapsed}
-            active={location.pathname === "/items"}
+            active={location.pathname === "/items"}/>
+          <ButtonNav
+            to="/customer"
+            icon={<AccountBoxOutlinedIcon style={{ fontSize: "22px" }} />}
+            label="customer"
+            collapsed={isCollapsed}
+            active={location.pathname === "/customer"}/>
+          <ButtonNav
+            to="/order"
+            icon={<NotificationsIcon style={{ fontSize: "22px" }} />}
+            label="Shop"
+            collapsed={isCollapsed}
+            active={location.pathname === "/order"}
           />
           
         </div>

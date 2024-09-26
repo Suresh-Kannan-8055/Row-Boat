@@ -9,6 +9,8 @@ import { MyContext } from "./MyContext";
 import { Provider } from "react-redux";
 import store from "./store";
 import Item from "./pages/Items/Item";
+import Customers from "./pages/Customers/Customers";
+import Order from "./pages/order/order";
 
 function App() {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -16,9 +18,14 @@ function App() {
   const theme = createTheme({
     palette: {
       mode: "light",
+      typography: {
+        fontFamily: 'cursive',
       primary: {
-        main: "#fff",
+        main: "#07273d",
       },
+      // primary: {
+      //   main: "#fff",
+      // },
     },
   });
 
@@ -35,6 +42,8 @@ function App() {
               <Routes>
                 <Route path="/dashBoard" element={<Dashboard />} />
                 <Route path="/items" element={<Item />} />
+                <Route path="/customer" element={<Customers/>}/>
+                <Route path="/order" element={<Order></Order>} />
               </Routes>
             </MyContext.Provider>
           </div>

@@ -1,0 +1,64 @@
+.customerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 30px;
+}
+.headerdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.tableDiv{
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.exportAddDiv{
+    display: flex;
+    gap: 20px;
+}
+
+/*Table Header styles*/
+.custom-table .ant-table-thead > tr > th {
+    background-color: white; 
+    color: #6A7174; 
+    /* border-top:0.1px solid white;  */
+    /* border-bottom:0.1px solid #E4E8EB;  */
+    border-top: none !important; 
+    border-left: none; 
+    border-right: none;
+    font-size: 16px; 
+    border-radius: 0px !important;
+    
+  }
+  
+  .custom-table .ant-table-tbody > tr > td {
+    /* border-top:0.1px solid #E4E8EB;  */
+    border-bottom:0.1px solid #E4E8EB; 
+    border-left: none; 
+    border-right: none; 
+  }
+  
+  .custom-table .ant-table {
+    border-left: none; 
+    border-right: none; 
+    /* border-top:0.1px solid #E4E8EB; */
+    /* border-bottom:0.1px solid #E4E8EB */
+  }
+
+  .searchDiv{
+    margin-bottom: 10px;
+  }
+
+  .buttonDiv{
+    display: flex;
+    gap: 15px;
+  }

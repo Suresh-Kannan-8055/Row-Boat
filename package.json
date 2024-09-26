@@ -16,6 +16,7 @@
     "@mui/material": "^6.1.1",
     "@reduxjs/toolkit": "^2.2.7",
     "@toolpad/core": "^0.5.2",
+    "antd": "^5.21.1",
     "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -25,6 +26,7 @@
     "redux": "^5.0.1",
     "sass": "^1.79.1",
     "vite-project": "file:"
+    "react-table": "^7.8.0",
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

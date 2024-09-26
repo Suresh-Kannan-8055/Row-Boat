@@ -1,0 +1,169 @@
+.order-container {
+  height: 98%;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+.order-left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.order-right {
+  width: 57%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.order-center {
+  width: 98%;
+  height: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.order-title {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.order-table {
+  width: 100%;
+  height: 70%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.order-bill {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+}
+.order-continue {
+  width: 49%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  font-size: 20px;
+  font-weight: 600;
+}
+.order-bill-generate {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.pay-type {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.nameoncard {
+  width: 100%;
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cartnumber {
+  width: 100%;
+  height: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.expiratedate {
+  width: 100%;
+  height: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nametile {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.paytitle {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+}
+.payment {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content:start;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+.expirydate {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.cvv {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.subtotal {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Total{
+  width: 80%;
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.valuetitle{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.value{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
