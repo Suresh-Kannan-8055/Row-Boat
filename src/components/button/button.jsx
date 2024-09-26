@@ -22,6 +22,7 @@ const Buttons = (props) => {
           background: props.background,
           border: props.border,
           borderRadius:props.borderRadius,
+          borderColor:props.borderColor,
           cursor:"pointer"
         }}
         onClick={props.onClick} 
