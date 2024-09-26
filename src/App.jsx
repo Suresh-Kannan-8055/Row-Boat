@@ -8,6 +8,7 @@ import { useState } from "react";
 import { MyContext } from "./MyContext";
 import { Provider } from "react-redux";
 import store from "./store";
+import Order from "./pages/order/order";
 
 function App() {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -33,6 +34,7 @@ function App() {
             <MyContext.Provider value={{ isCollapsed, setIsCollapsed }}>
               <Routes>
                 <Route path="/dashBoard" element={<Dashboard />} />
+                <Route path="/order" element={<Order></Order>} />
               </Routes>
             </MyContext.Provider>
           </div>

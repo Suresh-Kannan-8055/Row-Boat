@@ -13,6 +13,7 @@ import ApartmentSharpIcon from '@mui/icons-material/ApartmentSharp';
 import "./navbar.css";
 import { MyContext } from "../../MyContext";
 
+import NotificationsIcon from '@mui/icons-material/Notifications';
 
 const VNavbar = () => {
   const {isCollapsed, setIsCollapsed } = useContext(MyContext);
@@ -54,6 +55,13 @@ const VNavbar = () => {
             label="Shop"
             collapsed={isCollapsed}
             active={location.pathname === "/shop"}
+          />
+          <ButtonNav
+            to="/order"
+            icon={<NotificationsIcon style={{ fontSize: "22px" }} />}
+            label="Shop"
+            collapsed={isCollapsed}
+            active={location.pathname === "/order"}
           />
           
         </div>
