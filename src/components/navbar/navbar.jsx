@@ -10,6 +10,7 @@ import NotificationsOutlinedIcon from '@mui/icons-material/NotificationsOutlined
 import AccountBoxOutlinedIcon from '@mui/icons-material/AccountBoxOutlined';
 import ReceiptLongSharpIcon from '@mui/icons-material/ReceiptLongSharp';
 import ApartmentSharpIcon from '@mui/icons-material/ApartmentSharp';
+import FastfoodIcon from '@mui/icons-material/Fastfood';
 import "./navbar.css";
 import { MyContext } from "../../MyContext";
 
@@ -54,6 +55,13 @@ const VNavbar = () => {
             label="Shop"
             collapsed={isCollapsed}
             active={location.pathname === "/shop"}
+          />
+          <ButtonNav
+            to="/items"
+            icon={<FastfoodIcon style={{ fontSize: "22px" }} />}
+            label="Items"
+            collapsed={isCollapsed}
+            active={location.pathname === "/items"}
           />
           
         </div>
