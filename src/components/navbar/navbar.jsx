@@ -56,6 +56,13 @@ const VNavbar = () => {
             collapsed={isCollapsed}
             active={location.pathname === "/shop"}
           />
+
+          <ButtonNav
+            to="/customer"
+            icon={<AccountBoxOutlinedIcon style={{ fontSize: "22px" }} />}
+            label="customer"
+            collapsed={isCollapsed}
+            active={location.pathname === "/customer"}
           <ButtonNav
             to="/order"
             icon={<NotificationsIcon style={{ fontSize: "22px" }} />}
