@@ -31,27 +31,7 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Provider store={store}>
-        <div className="app-container">
-          <MyContext.Provider value={{ isCollapsed, setIsCollapsed }}>
-            <VNavbar />
-          </MyContext.Provider>
-          <div className="main-content">
-            <MyContext.Provider value={{ isCollapsed, setIsCollapsed }}>
-              <Routes>
-                <Route path="/dashBoard" element={<Dashboard />} />
-                <Route path="/items" element={<Item />} />
-                <Route path="/customer" element={<Customers/>}/>
-                <Route path="/order" element={<Order></Order>} />
-
-
-
-           </Routes>
-            </MyContext.Provider>
-          </div>
-        </div>
-      </Provider>
+      <p>dsffjsgkjskfgkfdg</p>
     </ThemeProvider>
   );
 }
