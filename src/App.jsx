@@ -44,6 +44,12 @@ function App() {
                 <Route path="/items" element={<Item />} />
                 <Route path="/customer" element={<Customers/>}/>
                 <Route path="/order" element={<Order></Order>} />
+
+
+
+
+
+                <p>hsggkkhdhghsgksfghhglhjghfdglhsjkfhhgjdhjhdauriutyrthgcvnbmnbhfghlsfj</p>
            </Routes>
             </MyContext.Provider>
           </div>
