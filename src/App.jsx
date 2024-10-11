@@ -1,17 +1,3 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import { CssBaseline } from "@mui/material";
-import Dashboard from "./pages/Dashboard/dashboard";
-import VNavbar from "./components/navbar/navbar";
-import "./App.css";
-import { useState } from "react";
-import { MyContext } from "./MyContext";
-import { Provider } from "react-redux";
-import store from "./store";
-import Item from "./pages/Items/Item";
-import Customers from "./pages/Customers/Customers";
-import Order from "./pages/order/order";
-
 function App() {
   const [isCollapsed, setIsCollapsed] = useState(true);
 
