@@ -47,9 +47,6 @@ function App() {
 
 
 
-
-
-                <p>hsggkkhdhghsgksfghhglhjghfdglhsjkfhhgjdhjhdauriutyrthgcvnbmnbhfghlsfj</p>
            </Routes>
             </MyContext.Provider>
           </div>
